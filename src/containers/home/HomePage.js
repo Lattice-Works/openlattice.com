@@ -25,6 +25,7 @@ import {
   SectionContent,
   SolidButton,
   Tile,
+  TileGrid,
   Typography,
 } from '../../components';
 import { openBeacon } from '../../utils/Utils';
@@ -89,6 +90,39 @@ const HomePage = () => (
           </GraphicShot>
         </FeatureGrid>
       </SectionContent>
+
+      <SectionContent>
+        <TileGrid>
+          <Tile>
+            <Tile gap={16}>
+              <Typography color={PURPLE.P300} fontWeight={700} variant="body2">
+                RIGHT DATA
+              </Typography>
+              <Typography variant="h2">
+                Collect and connect all the data you need
+              </Typography>
+            </Tile>
+            <Typography maxWidth={{ lg: 480 }} variant="body2">
+              Connect any and all systems, teams, departments, jurisdictions, and researchers and feed the data into
+              one secure, modern, easy-to-use system that links it all together for you.
+            </Typography>
+            <Typography maxWidth={{ lg: 480 }} variant="body2">
+              Optionally, collect data through OpenLattice Apps, built to help you achieve specific goals.
+            </Typography>
+            <Tile gap={32}>
+              <Typography maxWidth={{ lg: 480 }} variant="body2">
+                OpenLattice makes sure the data is properly protected and compliant, so you can focus on the actionable
+                insights that come from integrated data.
+              </Typography>
+              <SolidButton onClick={openBeacon}>Get a Demo</SolidButton>
+            </Tile>
+          </Tile>
+          <GraphicShot>
+            <RightDataGraphic />
+          </GraphicShot>
+        </TileGrid>
+      </SectionContent>
+
       <SectionContent>
         <FeatureGrid reverseOrderOnWrap>
           <GraphicShot>

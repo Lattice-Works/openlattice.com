@@ -1,0 +1,20 @@
+import {
+  DataSecurityAndComplianceImg,
+  GenerateDatasetsImg,
+  ManageAccessImg,
+  SecureAuditLogImg,
+} from '../../assets/images/home';
+
+import {
+  AnonymousCircleIcon,
+  CheckCircleIcon,
+  CloudCircleIcon,
+  DotGridCircleIcon,
+  KeyCircleIcon,
+  LockCircleIcon,
+  LogsCircleIcon,
+  PointerCircleIcon,
+  SelectCircleIcon,
+  SyncCircleIcon,
+  Users2CircleIcon,
+} from '../../assets/svg/circle-icons';
